@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+
+    <TextView android:layout_width="@dimen/width_stock_info"
+              android:layout_height="match_parent"
+              android:text="成交"
+              style="@style/StockInfoColumn"
+            />
+    <TextView android:layout_width="@dimen/width_stock_info"
+              android:layout_height="match_parent"
+              android:text="漲跌"
+              style="@style/StockInfoColumn"
+            />
+    <TextView android:layout_width="@dimen/width_stock_info"
+              android:layout_height="match_parent"
+              android:text="幅度"
+              style="@style/StockInfoColumn"
+            />
+    <TextView android:layout_width="@dimen/width_stock_info"
+              android:layout_height="match_parent"
+              android:text="買進"
+              style="@style/StockInfoColumn"
+            />
+    <TextView android:layout_width="@dimen/width_stock_info"
+              android:layout_height="match_parent"
+              android:text="賣出"
+              style="@style/StockInfoColumn"
+            />
+    <TextView android:layout_width="@dimen/width_stock_info"
+              android:layout_height="match_parent"
+              android:text="單量"
+              style="@style/StockInfoColumn"
+            />
+    <TextView android:layout_width="@dimen/width_stock_info"
+              android:layout_height="match_parent"
+              android:text="總量"
+              style="@style/StockInfoColumn"
+            />
+</LinearLayout>

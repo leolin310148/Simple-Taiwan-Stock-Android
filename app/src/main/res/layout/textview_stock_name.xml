@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="@dimen/width_stock_info"
+          android:id="@+id/textViewStockName"
+          android:layout_height="match_parent"
+          android:text="名稱"
+          style="@style/StockInfoColumn"
+          tools:showIn="@layout/fragment_stock_list"/>

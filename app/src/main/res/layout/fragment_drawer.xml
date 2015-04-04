@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:paddingTop="24dp"
+              android:orientation="vertical"
+        >
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:background="#ff1eb9d2"
+                  android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/userInfo" android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp">
+            <com.facebook.login.widget.ProfilePictureView
+                    android:id="@+id/profilePictureView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_toRightOf="@id/profilePictureView"
+                      android:id="@+id/textViewUserName"
+                      android:textColor="#000"
+                      android:paddingLeft="10dp"
+                      android:textSize="20dp"
+                      android:layout_alignParentBottom="true"
+                      android:text="@string/info_not_login"/>
+            <Button
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/loginButton"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/button_text_login"
+                    android:background="@drawable/general_button"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/textViewMenuIndustry"
+              android:text="@string/menu_industry"
+              style="@style/DrawerMenu"
+              android:drawableLeft="@drawable/ic_folder_open_black_36dp"
+            />
+
+
+</LinearLayout>
