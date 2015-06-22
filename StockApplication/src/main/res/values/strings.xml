@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StockApplication</string>
+    <string name="nav_item_subscription_label">自選股</string>
+    <string name="label_add_subscription">新增自選股</string>
+    <string name="label_edit_subscription">編輯自選股</string>
+    <string name="defaultSubscriptionSetName">自選</string>
+    <string name="label_subscription_set_name">分類名稱</string>
+    <string name="validation_msg_subscription_set_name_required">請輸入自選分類名稱</string>
+    <string name="hint_search_stock">輸入股票代號或名稱</string>
+    <string name="label_search_stock">搜尋股票</string>
+</resources>

@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="me.leolin.twse">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="true"
+                 android:name=".core.StockApplication"
+                 android:label="@string/app_name"
+                 android:icon="@mipmap/ic_launcher"
+                 android:theme="@style/AppTheme">
+
+        <meta-data android:name="roboguice.modules"
+                   android:value="me.leolin.twse.core.ioc.IocModule" />
+
+
+        <activity android:name=".core.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".core.MainActivity"/>
+        <activity android:name=".subscription.EditSubscriptionSetActivity" android:label="@string/label_edit_subscription"/>
+
+        <activity android:name=".stock.SearchStockActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/search_stock"/>
+        </activity>
+    </application>
+
+</manifest>

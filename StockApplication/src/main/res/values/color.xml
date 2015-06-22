@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#3f3f3f</color>
+    <color name="colorPrimary">#ff565656</color>
+    <color name="statusBarBackground">#883f3f3f</color>
+
+    <color name="tabBackground">#883f3f3f</color>
+    <color name="tabIndicatorColor">#fff</color>
+    <color name="tabDividerColor">#fff</color>
+    <color name="tabTextColor">#fff</color>
+</resources>
